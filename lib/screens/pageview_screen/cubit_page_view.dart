@@ -2,10 +2,10 @@ import 'package:color_app/color_change_cubit/color_change_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-// Color change in this page is managed by cubit state
+/// [CubitPageView] color change in this page is managed by cubit state
 class CubitPageView extends StatelessWidget {
 
-  // Cubit page constructor
+  /// Cubit page constructor
   const CubitPageView({ Key? key }) : super(key: key);
 
   @override

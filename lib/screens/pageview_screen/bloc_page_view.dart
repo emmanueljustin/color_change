@@ -2,10 +2,10 @@ import 'package:color_app/color_change_bloc/color_change_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-// Bloc page view is where the color change state is being processed by bloc
+/// [BlocPageView] is where the color change state is being processed by bloc
 class BlocPageView extends StatelessWidget {
 
-  // Bloc page constructor
+  /// Bloc page constructor
   const BlocPageView({ Key? key }) : super(key: key);
 
   @override

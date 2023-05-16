@@ -1,3 +1,5 @@
+// ignore_for_file: lines_longer_than_80_chars
+
 import 'dart:async';
 import "dart:math";
 
@@ -7,13 +9,11 @@ import 'package:equatable/equatable.dart';
 part 'color_change_event.dart';
 part 'color_change_state.dart';
 
-// Main class of Bloc state
+/// [ColorChangeBloc] is the main class of Bloc state
 class ColorChangeBloc extends Bloc<ColorChangeEvent, ColorChangeState> {
 
-  // Contructor for bloc class
+  /// Contructor for bloc class
   ColorChangeBloc() : super(ColorChangeInitial()) {
-
-    // Used for method calling when event is being triggerred
     on<ColorChangeStarted>(_colorChangeStarted);
     on<UpdateColor>(_onUpdateColor);
   }
